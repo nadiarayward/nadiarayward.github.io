@@ -1,0 +1,192 @@
+* {
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	color: #86A383;
+	margin: 0 0 100px;
+}
+
+.content-center{
+	text-align: center;
+	color: white;
+	height: 500px;
+padding-right: 80px;
+	
+
+	
+}
+
+nav {
+  width: 100%;
+  text-align: right;
+  background-color: #B2D093;
+  opacity: 0.75;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+
+
+}
+
+
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  display: inline-block;
+  margin: 20px;
+  padding: 5px;
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover{
+	color: gray;
+}
+
+
+/* .main_nav{
+	position: fixed;
+} */
+/* nav .active {
+  border-top: 2px solid #F07057;
+} */
+#container {
+  width: 960px;
+  margin: auto;
+}
+.btn {
+  background-color: #cdcdcd;
+  padding: 6px 12px;
+  margin: 0 10px 0 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.5;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  outline: none;
+  transition: all 200ms ease-in-out;
+}
+
+#image-to-vote-on,
+#buttons-wrapper {
+  margin: 0 auto;
+  width: 400px;
+  text-align: center;
+  display: block;
+}
+
+#image-to-vote-on {
+  margin-top: 50px;
+}
+
+#buttons-wrapper {
+  margin-top:20px;
+}
+
+#image-to-vote-on + div {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 12px;
+
+}
+
+.nav-wrapper {
+  height: 60px;
+
+}
+
+
+.main-nav {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 100;
+}
+
+
+.places {
+	text-align: left;
+}
+
+
+footer {
+	position: absolute;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;	
+  	height: 75px;
+  	 background-color: #B2D093;
+
+}
+
+.footer {
+
+	text-align: center;
+
+}
+
+.travelquest{
+	max-width: 100%;
+    height: 200px;
+}
+
+.photography{
+	max-width: 100%;
+    height: 500px;
+}
+
+
+.column1{
+	width: 33.3%;
+	float: left;
+	padding-left: 200px;
+}
+.column2{
+	width: 33.3%;
+	float: left;
+	padding-left: 150px;
+	
+}
+.column3{
+	width: 33.3%;
+	float: left;
+	padding-right: 200px;
+}
+video{
+  	min-width: 100%;
+  	min-height: 100%;
+  	width: auto;
+  	height: auto;
+}
+.video{
+	z-index: -1;
+	position: absolute;
+	right: 0;
+	left: 0;
+	top: 0;
+	height: 500px;
+	overflow: hidden;
+
+}
